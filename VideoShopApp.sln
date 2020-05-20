@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoShopApp", "VideoShopApp\VideoShopApp.csproj", "{86274F15-70A7-47A6-B3BD-2D5F98FECCBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86274F15-70A7-47A6-B3BD-2D5F98FECCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86274F15-70A7-47A6-B3BD-2D5F98FECCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86274F15-70A7-47A6-B3BD-2D5F98FECCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86274F15-70A7-47A6-B3BD-2D5F98FECCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {049A58C6-D0ED-4282-9EF2-7CE41270D7DA}
+	EndGlobalSection
+EndGlobal
