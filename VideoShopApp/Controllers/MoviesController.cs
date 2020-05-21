@@ -17,8 +17,8 @@ namespace VideoShopApp.Controllers
             var movie = new Movie() { Name = "Thappad" };
             var customers = new List<Customer>
             {
-                new Customer {Name = "Customer1"},
-                new Customer {Name = "Customer2"}
+                new Customer {Name = "Swathi"},
+                new Customer {Name = "Prashant"}
             };
 
             var viewModel = new RandomMovieViewModel
