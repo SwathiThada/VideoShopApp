@@ -1,0 +1,25 @@
+﻿@model List<VideoShopApp.Models.Customer>
+@{
+    ViewBag.Title = "ListCustomers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>List of Existing Customers</h2>
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th> Customer Name</th>
+        <th> id </th>
+    </tr>
+
+    @foreach (var customer in Model)
+    {
+        <tr>
+            @*<td>@Html.ActionLink(customer.Name, "Details", new { id = customer.Id })</td>*@
+            <td><a href="details/@customer.Id">@customer.Name </a> </td>
+            <td>@customer.Id</td>
+        </tr>
+    }
+</table>
+
+
