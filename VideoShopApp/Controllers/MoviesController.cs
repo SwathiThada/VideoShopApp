@@ -11,23 +11,28 @@ namespace VideoShopApp.Controllers
 {
     public class MoviesController : Controller
     {
-        // GET: Movies/Random
-        public ActionResult Random()
+        // GET: Movies/List
+        [Route ("Movies/List")]
+        public ActionResult ListMovies()
         {
-            var movie = new Movie() { Name = "Thappad" };
-            var customers = new List<Customer>
-            {
-                new Customer {Name = "Swathi"},
-                new Customer {Name = "Prashant"}
+            var movie = new List<Movie>
+                {
+                    new Movie { Name = "Thappad" , Id = 101},
+                    new Movie { Name = "Guru" , Id = 102}
             };
+            //var customers = new List<Customer>
+            //{
+            //    new Customer {Name = "Swathi"},
+            //    new Customer {Name = "Prashant"}
+            //};
 
-            var viewModel = new RandomMovieViewModel
-            {
-                Movie = movie,
-                Customers = customers
-            };
+            //var viewModel = new RandomMovieViewModel
+            //{
+            //    Movie = movie,
+            //    Customers = customers
+            //};
              
-            return View(viewModel);
+            return View(movie);
             //return PartialView(movie);
             //return Content("Hello World!!");
             //return HttpNotFound();
