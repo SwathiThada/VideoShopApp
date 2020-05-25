@@ -137,8 +137,25 @@
     <Compile Include="Migrations\202005251140407_initialMigration.designer.cs">
       <DependentUpon>202005251140407_initialMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005251152508_addIsSubscribedtoNewsLettertoCustomer.cs" />
+    <Compile Include="Migrations\202005251152508_addIsSubscribedtoNewsLettertoCustomer.designer.cs">
+      <DependentUpon>202005251152508_addIsSubscribedtoNewsLettertoCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005251206121_addMemberShipType.cs" />
+    <Compile Include="Migrations\202005251206121_addMemberShipType.designer.cs">
+      <DependentUpon>202005251206121_addMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005251212554_populateMemberShipType.cs" />
+    <Compile Include="Migrations\202005251212554_populateMemberShipType.designer.cs">
+      <DependentUpon>202005251212554_populateMemberShipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005251252342_applyannotationstocustomername.cs" />
+    <Compile Include="Migrations\202005251252342_applyannotationstocustomername.designer.cs">
+      <DependentUpon>202005251252342_applyannotationstocustomername.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\MemberShipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Models\MyDBContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -188,6 +205,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Migrations\202005251250554_applyconstraints\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -205,6 +223,18 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202005251140407_initialMigration.resx">
       <DependentUpon>202005251140407_initialMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005251152508_addIsSubscribedtoNewsLettertoCustomer.resx">
+      <DependentUpon>202005251152508_addIsSubscribedtoNewsLettertoCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005251206121_addMemberShipType.resx">
+      <DependentUpon>202005251206121_addMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005251212554_populateMemberShipType.resx">
+      <DependentUpon>202005251212554_populateMemberShipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005251252342_applyannotationstocustomername.resx">
+      <DependentUpon>202005251252342_applyannotationstocustomername.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
